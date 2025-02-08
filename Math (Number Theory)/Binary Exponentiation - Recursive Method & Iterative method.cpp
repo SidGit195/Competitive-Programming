@@ -49,7 +49,7 @@ int binExpRecur(int a, int b){
 int binExpIter(int a, int b){
     int ans = 1;
     while(b){
-        if(b&1){
+        if(b&1){    // fast way to check b is odd
             ans = (ans * 1ll * a)%M;
         }
         a = (a * 1ll * a)%M;
