@@ -45,6 +45,7 @@ int binExpRecur(int a, int b){
 
 // b ke binary ka bit check karna hai
 // a = 3, b = 13(1101)
+// Time Complexity: O(log(b))
 int binExpIter(int a, int b){
     int ans = 1;
     while(b){
