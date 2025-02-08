@@ -3,6 +3,28 @@
     and we know that double can store large value but it is not accurate (for large values)
     so we generally avoide pow(x, y) in CP
 
+    # O(n) 
+    int ans = 1;
+    for(int i=0; i<y; ++i){
+        ans *= x;
+    }
+    cout << ans << endl;
+    but this is not efficient to calculate power of a number
+    so we use binary exponentiation
+
+    # Binary Exponentiation
+    # O(logn)
+    # a^b
+    # b = 13(1101)
+    # 2^13 = 2^8 * 2^4 * 2^1
+    ----------
+    # 2^8 = 2^4 * 2^4
+    # 2^4 = 2^2 * 2^2
+    # 2^2 = 2^1 * 2^1
+    # 2^1 = 2^0 * 2^0
+    # 2^0 = 1
+    ----------
+    It's a divide and conquer approach || pehle b ko tod do 2 parts me again and again then ektah kar do
 */
 
 
