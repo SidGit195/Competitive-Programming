@@ -1,7 +1,7 @@
 /*
 ------------------- Dijkstra Algorithm -------------------------
 # used for directed edges {but it can work for both directed and non-directed graph}
-# used for +ve edges
+# used for +ve edges (can't work for -ve edges)
 # pick up any source vertex and find min. distance of all the vertex from the source vertex (when to use)
 
 Time Complexity: O ( V + E l o g V )

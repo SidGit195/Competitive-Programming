@@ -10,7 +10,8 @@ void printBinary(int nums){
 
 int main(){
     // for(int i=0; i<8; ++i){
-    //     printBinary(i);    //     if(i&1){                         // for checking no. is odd or even  (fast operation comparision with modulo)
+    //     printBinary(i);     
+    //     if(i&1){                         // for checking no. is odd or even  (fast operation comparision with modulo)
     //         cout << "Odd" << endl;
     //     }else{
     //         cout << "Even" << endl;
@@ -55,6 +56,11 @@ int main(){
         11111100000
         00000011111
         00000100000  -  1
+
+
+
+        # For finding RSB
+        n & ~(n-1)
     */
     // printBinary(59);
     // int a = 59;
@@ -62,7 +68,7 @@ int main(){
     // int b = (a & (~((1 << (i+1)) - 1)));
     // printBinary(b);
 
-    // // # clear MSB's
+    // # clear MSB's
     // i = 3;
     // int c = (a & ((1 << (i+1)) - 1));
     // printBinary(c);

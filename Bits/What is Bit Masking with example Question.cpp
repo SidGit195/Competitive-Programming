@@ -12,8 +12,8 @@
     We want to calculate common fruit
     -------------------------------------
 
-    person              Bit + Masking
-    1) 2, 3         --> 1100  == 12
+person + fruit          Bit + Masking
+   p1) 2, 3         --> 1100  == 12
     2) 0, 1, 2      --> 0111  == 7
     3) 1, 3         --> 1010  == 10
 ---> 2 sorted array intersection = O(n) {using 2 pointer approach}

@@ -9,8 +9,6 @@ void printSet(set<string> &s){
     cout << "SIZE: " << s.size() << endl;
     for(string value: s)
         cout << value << endl;
-
-
 }
 
 int main(){

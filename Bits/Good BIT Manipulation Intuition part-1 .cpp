@@ -12,7 +12,8 @@ int main()
     {
         long long p;
         cin >> p;
-        cout << __builtin_popcountll(p) << endl;    // count set bit
+        cout << __builtin_popcountll(p) << endl;    // count set bit 
+        // T.C. = O(number of bits) == O(c) == O(1)
     }
 
     return 0;

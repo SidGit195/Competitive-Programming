@@ -2,6 +2,7 @@
     # UPPER & LOWER BOUND
     # Array or Vector jis par bhi apply karo wo sorted hone chahiye
 
+    # lower bound or upper bound ke neeche defination de gayi sahi hai, naam par mat jaye (i know lower bound ka naam or defination nahi match kar rahe)
     # LOWER BOUND :- agar wo element present hai to wahi found karega warna usse just bada element array me present (element present)
     # UPPER BOUND :- upar bound just bada element he found karega
 

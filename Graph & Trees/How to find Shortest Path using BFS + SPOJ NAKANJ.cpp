@@ -85,4 +85,9 @@ int main(){
         cout << bfs(s1, s2) << endl;
     }
     return 0;
-}
+
+
+// BFS is used to find shortest path
+// BFS me level wise insertion hote hai
+// level 2 hamesha level 3 se phele hi access hoga, zarurri hai (bcz queue hai)
+// level is distance from root node

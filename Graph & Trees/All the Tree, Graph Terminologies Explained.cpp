@@ -9,7 +9,7 @@
     -> edges := n-1
 
 
-    -> For Undirected Acyclic and cyclic is same
+    -> For Undirected Acyclic and cyclic 
     -> Connected Component Terminology is used for  
     # In Directed Graph
     ->> Strongly Connected Component: kisi bhi vertex se har vertex par ja sakte ho

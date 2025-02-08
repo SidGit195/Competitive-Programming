@@ -8,3 +8,8 @@
     1. Brute Force Recursion lekho
     2. DP add kar do
 */
+
+
+/*
+    PreComputation of results is called DP
+*/
